@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year Rooftop Party</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #000428, #004e92);
+            color: #fff;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #ffcc00;
+        }
+
+        .content {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .content h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.8rem 2rem;
+            font-size: 1.2rem;
+            color: #fff;
+            background: #ff6600;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .cta-button:hover {
+            background: #e65500;
+        }
+
+        .background-image {
+            position: relative;
+            min-height: 100vh;
+            background: url('newyear.jpeg') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .event-details {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            color: #fff;
+            margin-top: 13rem;
+        }
+
+        .event-details h2 {
+            font-size: 5rem;
+            margin: 0;
+        }
+
+        .event-details p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+
+        .bottom-align {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .event-details h2 {
+                font-size: 2rem;
+            }
+
+            .cta-button {
+                font-size: 1rem;
+            }
+
+            .bottom-align {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-image">
+        <div class="overlay"></div>
+        <div class="event-details">
+            <h2>New Year's Eve Party</h2>
+            <p>Celebrate the arrival of 2025 with fun games, friends and fireworks.</p>
+        </div>
+        <div class="bottom-align">
+            <h2>Event Details</h2>
+            <p><strong>Time:</strong> 8:00 PM - Next Year</p>
+            <p><strong>Location:</strong> <a target="_blank" style="color:white" href="https://www.google.com/maps/place/Avalon+Belltown+Towers/@47.6156911,-122.350502,17z/data=!3m1!4b1!4m6!3m5!1s0x54901507151dfe57:0x9a3fa593b0b56143!8m2!3d47.6156911!4d-122.3479271!16s%2Fg%2F11fkkfzcfk?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">Avalon Belltown Towers</a></p>
+            <a href="https://docs.google.com/forms/d/1c6ZbYq3amNzsjhsFhf_lWy2vKbfDfgqe1fYUGnDoYgE/viewform?edit_requested=true" class="cta-button" target="_blank">RSVP Now</a>
+        </div>
+    </div>
+</body>
+</html>
